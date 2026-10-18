@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9c49b"/>
+      <stop offset="1" stop-color="#c27a2c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#fbf1e6" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#fbf1e6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a3f20"/>
+      <stop offset="1" stop-color="#43200f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <!-- table -->
+  <path d="M0 700h1600v200H0z" fill="#5a2a17"/>
+  <path d="M0 700h1600v14H0z" fill="#43200f"/>
+  <g transform="translate(-110 0)">
+  <!-- saucer + cup -->
+  <ellipse cx="1150" cy="690" rx="260" ry="38" fill="#43200f" opacity="0.35"/>
+  <ellipse cx="1150" cy="672" rx="240" ry="34" fill="#fffaf4"/>
+  <ellipse cx="1150" cy="664" rx="180" ry="22" fill="#f4d9bc"/>
+  <path d="M960 420h380v120c0 75-60 130-135 130h-110c-75 0-135-55-135-130z" fill="#fffaf4"/>
+  <path d="M1340 455h30a70 70 0 0 1 0 140h-48" fill="none" stroke="#fffaf4" stroke-width="30" stroke-linecap="round"/>
+  <ellipse cx="1150" cy="420" rx="190" ry="34" fill="#f4d9bc"/>
+  <ellipse cx="1150" cy="424" rx="168" ry="26" fill="url(#coffee)"/>
+  <path d="M1105 418c25-14 65-14 90 0-25 14-65 14-90 0z" fill="#e9c49b" opacity="0.8"/>
+  <!-- steam -->
+  <g fill="none" stroke="#fffaf4" stroke-width="16" stroke-linecap="round" opacity="0.85">
+    <path d="M1080 360c-40-50 40-80 0-140"/>
+    <path d="M1150 340c-40-50 40-80 0-150"/>
+    <path d="M1220 360c-40-50 40-80 0-140"/>
+  </g>
+  </g>
+  <!-- beans -->
+  <g fill="#9a5a2e">
+    <g transform="translate(820 735) rotate(-20)"><ellipse rx="34" ry="22"/><path d="M-30 0c20-10 40 10 60 0" stroke="#2e160b" stroke-width="5" fill="none"/></g>
+    <g transform="translate(1440 760) rotate(25)"><ellipse rx="34" ry="22"/><path d="M-30 0c20-10 40 10 60 0" stroke="#2e160b" stroke-width="5" fill="none"/></g>
+    <g transform="translate(1500 720) rotate(-40)"><ellipse rx="30" ry="20"/><path d="M-26 0c18-9 34 9 52 0" stroke="#2e160b" stroke-width="5" fill="none"/></g>
+  </g>
+  <g fill="#8a4f28">
+    <g transform="translate(760 790) rotate(15)"><ellipse rx="30" ry="20"/><path d="M-26 0c18-9 34 9 52 0" stroke="#2e160b" stroke-width="5" fill="none"/></g>
+  </g>
+</svg>

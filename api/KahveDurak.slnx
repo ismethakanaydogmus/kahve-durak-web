@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KahveDurak.Api.Tests/KahveDurak.Api.Tests.csproj" />
+  <Project Path="KahveDurak.Api/KahveDurak.Api.csproj" />
+</Solution>

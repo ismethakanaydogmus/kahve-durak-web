@@ -1,0 +1,18 @@
+bin/
+obj/
+node_modules/
+dist/
+coverage/
+.env.local
+*.user
+.vs/
+.idea/
+.superpowers/
+TestResults/
+.claude/
+.agents/
+skills-lock.json
+api/KahveDurak.Api/wwwroot/uploads/
+
+# Internal planning notes, kept locally only
+docs/superpowers/
