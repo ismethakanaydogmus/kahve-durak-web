@@ -87,3 +87,7 @@ Admin panelinden JPG, PNG ya da WebP yüklenir (en fazla 5 MB; tür dosyanın i�
   yazılır (git'e girmez) ve API tarafından `/uploads/...` adresinde sunulur.
 - **Canlı:** Render'ın diski kalıcı olmadığı için Supabase Storage kullanılır. `Storage:Provider=Supabase`,
   `Storage:SupabaseUrl`, `Storage:SupabaseServiceKey` ve `Storage:Bucket` (varsayılan `images`, public) gerekir; eksikse API açılmaz.
+
+## Lisans
+
+Kod [MIT](LICENSE) lisansı ile yayınlanmıştır.
