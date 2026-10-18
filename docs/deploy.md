@@ -13,9 +13,9 @@ Portföy demosudur: ödemeler iyzico **sandbox** ile alınır, gerçek para çek
    **Enable Data API kapalı** olmalı: uygulama veritabanına doğrudan bağlanıyor, açık bırakılırsa tablolar
    (kullanıcılar dahil) Supabase'in herkese açık REST API'sinden erişilebilir hale gelebilir.
 2. **Connect → Session pooler** bilgilerini al. Direct bağlantıyı kullanma: o sadece IPv6 ile çalışır ve Render'dan
-   ulaşılamayabilir. Bağlantı cümlesi şu biçimde olacak:
+   ulaşılamayabilir. Bağlantı cümlesi şu biçimde olacak (`aws-<n>` kısmını Connect ekranındaki host belirler):
    ```
-   Host=aws-0-eu-central-1.pooler.supabase.com;Port=5432;Database=postgres;Username=postgres.<proje-ref>;Password=<şifre>;SSL Mode=Require
+   Host=aws-<n>-eu-central-1.pooler.supabase.com;Port=5432;Database=postgres;Username=postgres.<proje-ref>;Password=<şifre>;SSL Mode=Require
    ```
 3. **Storage → New bucket:** adı `images`, **Public bucket** işaretli.
 4. **Project Settings → API Keys:** Proje adresini (`https://<proje-ref>.supabase.co`) ve **Secret key**'i (`sb_secret_…`) al.
